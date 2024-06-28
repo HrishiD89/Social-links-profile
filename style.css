@@ -1,0 +1,97 @@
+:root{
+    --Green : hsl(75, 94%, 57%);
+    --White: hsl(0, 0%, 100%);
+    --Grey: hsl(0, 0%, 20%);
+    --DarkGrey: hsl(0, 0%, 12%);
+    --OffBlack: hsl(0, 0%, 8%);
+}
+
+html{
+    font-size: 10px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--OffBlack);
+    font-family: "Inter", sans-serif;
+    flex-direction: column;
+}
+
+.container{
+    margin:5rem 0;
+    width: 400px;
+    background-color: var(--DarkGrey);
+    padding: 4rem;
+    border-radius: 12px;
+}
+
+.my-info {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.my-info img{
+    width: 80px;
+    border-radius: 100%;
+    margin-bottom: 2rem;
+}
+.my-info h1{
+    padding: 5px 0;
+    font-size: 2.6rem;
+    color: var(--White);
+    font-weight: 600;
+}
+.my-info h2{
+    padding: 5px 0;
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: var(--Green);
+}
+.my-info p{
+    margin-top: 1.5rem;
+    padding: 10px 0;
+    font-size: 1.4rem;
+    color: var(--White);
+}
+.links-container{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 1.5rem;
+}
+.links-container .link{
+    width: 100%;
+    background-color: var(--Grey);
+    padding: 1.5rem 0;
+    border-radius: 12px;
+}
+.links-container .link a{
+    width: 100%;
+    text-decoration: none;
+    color: var(--White);
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+footer {
+    color: var(--White);
+}
+
+@media  screen and (max-width: 600px) {
+    .container{
+        width: 30rem;
+        padding: 2rem;
+    }
+}
