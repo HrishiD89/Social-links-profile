@@ -22,7 +22,7 @@ Also, I didn't get any figma or any other design file to accurately match the or
 
 ### Screenshot
 
-![](./assets/images/screenshot-social-media-link.png)
+![](./assets/images/Screenshot%202024-06-28%20at%2014-25-34%20Frontend%20Mentor%20Social%20links%20profile.png)
 
 
 ### Links
