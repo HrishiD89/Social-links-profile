@@ -27,7 +27,7 @@ Also, I didn't get any figma or any other design file to accurately match the or
 
 ### Links
 
-- Live Site URL: [https://github.com/HrishiD89/Social-links-profile](https://github.com/HrishiD89/Social-links-profile)
+- Live Site URL: [https://hrishid89.github.io/Social-links-profile/](https://hrishid89.github.io/Social-links-profile/)
 
 ## My process
 
