@@ -1,4 +1,4 @@
-import Socials from "./Components/Socials"
+import Socials from "./components/Socials";
 
 function App() {
 
